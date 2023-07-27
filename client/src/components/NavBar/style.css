@@ -21,6 +21,7 @@
     gap: 5%;
     color: var(--main-blue);
     text-decoration: none;
+    align-items: center;
 }
 
 a {

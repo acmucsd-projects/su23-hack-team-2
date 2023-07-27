@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import logo from "../../images/logo.png";
+import logo from "../../assets/logo.png";
+import Searchbar from "../SearchBar";
 
 const Navbar = () => {
   return (
@@ -11,6 +12,7 @@ const Navbar = () => {
         <a href="/">Furniture</a>
         <a href="/">Electronics</a>
         <a href="/">More</a>
+        <Searchbar/>
       </nav>
     </div>
   );

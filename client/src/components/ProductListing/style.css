@@ -3,6 +3,10 @@
     --yellow: #FEF4E8;
 }
 
+html {
+    overscroll-behavior-y: none; /* gets rid of scroll bump thank god */
+}
+
 /* how each listing is formatted */
 .product {
     display: inline-flex;
