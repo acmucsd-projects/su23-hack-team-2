@@ -1,4 +1,5 @@
 import "./style.css";
+import ProductListingFilter from "../ProductListingFilter";
 
 const listingData = [
   {
@@ -31,8 +32,7 @@ const listingData = [
 const ProductListing = () => {
   return (
     <div class="page">
-        <div class="sidebar"></div>
-            
+        <div class="sidebar"><ProductListingFilter/></div>
         <div class="product-listing">
         <h1 class="cat-name">Category</h1>
           {listingData.map((listing, index) => {  

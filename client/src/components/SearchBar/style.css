@@ -17,7 +17,8 @@ input {
     border: none;
     height: 100%;
     font-size: medium;
-    color: var(--main-blue);
+    color: var(--main-blue); 
+    padding-left: 4%;
 }
 
 input:focus {
@@ -25,8 +26,6 @@ input:focus {
 }
 
 .search-icon {
-    height: 20px !important;
-    width: 20px !important;
     padding: 4%;
 }
 

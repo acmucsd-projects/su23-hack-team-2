@@ -29,7 +29,7 @@ const Searchbar = () => {
 
     return (
         <main class="input-wrapper">
-            <FaSearch class="search-icon"/>
+            <FaSearch size="1em"/>  
             <input placeholder="Search" 
             value={input} 
             onChange={(e) => handleChange(e.target.value)}/>

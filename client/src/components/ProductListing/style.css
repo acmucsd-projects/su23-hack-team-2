@@ -82,7 +82,7 @@ html {
 .sidebar {
     display: inline-flex;
     width: 25%;
-    border: solid black 1px;
+    /*border: solid black 1px;*/
     margin: 1%;
     margin-top: 0%
 }
