@@ -1,23 +1,19 @@
-import logo from '../src/tritontrade.png';
+import logo from '../src/assets/tritontrade.png';
 import './App.css';
+import AccountInfo from './components/AccountInfo';
+import Inbox from './components/Inbox'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src="../src/tritontrade.png" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Inbox/>
+        <BrowserRouter>
+          <Routes>
+            {/* <Route exact path="/" element={<Inbox />} /> */}
+            <Route exact path="/" element={<AccountInfo />} />
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }
