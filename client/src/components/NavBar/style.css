@@ -1,0 +1,40 @@
+:root {
+    --main-blue: #1989AC;
+    --yellow: #FEF4E8;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    padding-left: 2%;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    align-items: center;
+    background: white;
+}
+  
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    color: var(--main-blue);
+    text-decoration: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-blue);
+
+}
+
+a:hover { 
+    color: black;
+}
+
+.navlogo {
+    padding-right: 1%;
+    width: 10%;
+}
