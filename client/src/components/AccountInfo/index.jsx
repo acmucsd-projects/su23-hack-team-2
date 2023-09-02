@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import logo from "../../assets/logo.png";
 
 const AccountInfo = () => {
   return (
