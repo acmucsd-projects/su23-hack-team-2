@@ -10,7 +10,8 @@ function App() {
       <Inbox/>
         <BrowserRouter>
           <Routes>
-            <Route exact path="/" element={<Inbox />} />
+            <Route exact path="/inbox" element={<Inbox />} />
+            {/* <Route exact path="/accountinfo" element={<AccountInfo />} /> */}
           </Routes>
         </BrowserRouter>
     </div>

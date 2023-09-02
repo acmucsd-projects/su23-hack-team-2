@@ -1,12 +1,3 @@
-.e204_792 { 
-	overflow:hidden;
-}
-.e204_792 { 
-	background-color:rgba(255, 255, 255, 1);
-	width:1440px;
-	height:1428px;
-	position:absolute;
-}
 .pathway { 
 	width:128px;
 	height:22px;
@@ -38,7 +29,7 @@
 	padding: 3px;
 }
 .inboxpathway { 
-	color:rgba(60.00000022351742, 66.00000366568565, 66.00000366568565, 1);
+	color:rgba(60, 66, 66, 1);
 	width:45px;
 	height:22px;
 	position:absolute;
@@ -73,7 +64,7 @@
 
 /* nav bar categories */
 .academics { 
-	color:rgba(128.0000075697899, 125.00000014901161, 126.00000008940697, 1);
+	color:rgba(128, 125, 126, 1);
 	width:104px;
 	height:26px;
 	position:absolute;
@@ -89,7 +80,7 @@
 	cursor:pointer;
 }
 .furniture { 
-	color:rgba(128.0000075697899, 125.00000014901161, 126.00000008940697, 1);
+	color:rgba(128, 125, 126, 1);
 	width:92px;
 	height:26px;
 	position:absolute;
@@ -105,7 +96,7 @@
 	cursor:pointer;
 }
 .clothing { 
-	color:rgba(128.0000075697899, 125.00000014901161, 126.00000008940697, 1);
+	color:rgba(128, 125, 126, 1);
 	width:82px;
 	height:26px;
 	position:absolute;
@@ -121,7 +112,7 @@
 	cursor:pointer;
 }
 .more { 
-	color:rgba(127.5, 124.8437525331974, 125.72915822267532, 1);
+	color:rgba(128, 125, 126, 1);
 	width:51px;
 	height:26px;
 	position:absolute;
@@ -139,7 +130,7 @@
 
 /* nav bar search */
 .searchalldiv { 
-	background-color:rgba(254.00000005960464, 244.0000006556511, 232.00000137090683, 1);
+	background-color:rgba(254, 244, 232, 1);
 	border:0px;
 	width:267px;
 	height:42px;
@@ -158,8 +149,8 @@
 	height:18px;
 	width:18px;
 	position:absolute;
-	left:-2px;
-	top:1px;
+	left:13px;
+	top:11px;
 }
 .searchall input[type=text]{ 
 	background-color:transparent;
@@ -168,31 +159,8 @@
 	height:30px;
 	width:212px;
 	position:absolute;
-	left:27px;
-	top:-6.5px;
-}
-
-.ei204_860_208_454 { 
-	width:20px;
-	height:20px;
-	position:absolute;
-	left:20px;
-	top:12px;
-}
-.i204_860_208_454_211_514 { 
-	border:1.5px solid rgba(128, 128, 128, 1);
-}
-.ei204_860_208_455 { 
-	color:rgba(128.0000075697899, 125.00000014901161, 126.00000008940697, 1);
-	width:47px;
-	height:19px;
-	position:absolute;
-	left:52px;
-	top:12.5px;
-	font-family:Inria Sans;
-	text-align:center;
-	font-size:16px;
-	letter-spacing:0;
+	left:40px;
+	top:5px;
 }
 
 /* top right buttons */
@@ -204,7 +172,7 @@
 	top:0px;
 }
 .wishlist { 
-	background-color:rgba(246.0000005364418, 246.0000005364418, 246.0000005364418, 1);
+	background-color:rgba(240, 240, 240, 1);
 	width:44px;
 	height:44px;
 	position:absolute;
@@ -229,7 +197,7 @@
 	background-size: cover;
 }
 .profile { 
-	background-color:rgba(25.000000409781933, 137.00000703334808, 172.00000494718552, 1);
+	background-color:rgba(25, 137, 172, 1);
 	width:44px;
 	height:44px;
 	position:absolute;
@@ -301,8 +269,8 @@
 }
 
 .messages { 
-	width:376.0001220703125px;
-	height:182.44219970703125px;
+	width:376px;
+	height:182px;
 	position:absolute;
 	left:66px;
 	top:244px;
@@ -315,9 +283,9 @@
 	top:0px;
 }
 .e8_5534 { 
-	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
-	width:249.43321228027344px;
-	height:26.12497901916504px;
+	color:rgba(51, 51, 51, 1);
+	width:250px;
+	height:26px;
 	position:absolute;
 	left:96px;
 	top:12px;
@@ -361,7 +329,7 @@
 	top:5px;
 	font-family:Inria Sans;
 	text-align:right;
-	font-size:20px;
+	font-size:15px;
 	letter-spacing:0;
 }
 .janeschatpreview { 
@@ -372,7 +340,7 @@
 	top:105px;
 }
 .janemessagepreview { 
-	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	color:rgba(51, 51, 51, 1);
 	width:277px;
 	height:44px;
 	position:absolute;
@@ -384,9 +352,9 @@
 	letter-spacing:0;
 }
 .e57_1923 { 
-	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
-	width:249.43321228027344px;
-	height:26.12497901916504px;
+	color:rgba(51, 51, 51, 1);
+	width:250px;
+	height:26px;
 	position:absolute;
 	left:96px;
 	top:12px;
@@ -418,18 +386,18 @@
 	top:5px;
 	font-family:Inria Sans;
 	text-align:right;
-	font-size:20px;
+	font-size:15px;
 	letter-spacing:0;
 }
 .openmessagesender { 
-	width:142.57369995117188px;
+	width:143px;
 	height:44px;
 	position:absolute;
 	left:595px;
 	top:144px;
 }
 .currentmessagename { 
-	color:rgba(17.00000088661909, 17.00000088661909, 17.00000088661909, 1);
+	color:rgba(17, 17, 17, 1);
 	width:142px;
 	height:44px;
 	position:absolute;
@@ -459,7 +427,7 @@
 	border:1px solid rgba(0, 0, 0, 0.2);
 }
 .contact_currentmessagedivider { 
-	transform: rotate(179.9999957059593deg);
+	transform: rotate(180deg);
 	width:819px;
 	height:0px;
 	position:absolute;
@@ -489,7 +457,7 @@
 	top:244px;
 }
 .e205_996 { 
-	background-color:rgba(42.000001296401024, 42.000001296401024, 42.000001296401024, 0.20000000298023224);
+	background-color:rgba(42, 42, 42, 0.2);
 	width:530px;
 	height:95px;
 	position:absolute;
@@ -498,11 +466,11 @@
 	border-radius:20px;
 }
 .e205_997 { 
-	color:rgba(25.000000409781933, 137.00000703334808, 172.00000494718552, 1);
-	width:483.54205322265625px;
+	color:rgba(25, 137, 172, 1);
+	width:483px;
 	height:77px;
 	position:absolute;
-	left:22.754919052124023px;
+	left:23px;
 	top:14px;
 	font-family:Inria Sans;
 	text-align:left;
@@ -517,7 +485,7 @@
 	top:384px;
 }
 .e205_999 { 
-	background-color:rgba(31.000000052154064, 172.00000494718552, 216.00000232458115, 0.75);
+	background-color:rgba(31, 172, 216, 0.75);
 	width:492px;
 	height:57px;
 	position:absolute;
@@ -526,7 +494,7 @@
 	border-radius:20px;
 }
 .e205_1000 { 
-	color:rgba(42.000001296401024, 42.000001296401024, 42.000001296401024, 0.800000011920929);
+	color:rgba(42, 42, 42, 0.8);
 	width:448px;
 	height:42px;
 	position:absolute;
@@ -539,13 +507,14 @@
 }
 .typemessagediv { 
 	width:860px;
-	height:65.81480407714844px;
+	height:66px;
 	position:absolute;
 	left:493px;
 	top:1191px;
 }
 .typemessagerect input[type=text]{ 
 	background-color:rgba(42, 42, 42, 0.2);
+	border:0px;
 	color: rgba(42, 42, 42, 0.7);
 	width:810px;
 	height:60px;
