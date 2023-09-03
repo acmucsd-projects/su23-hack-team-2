@@ -11,11 +11,6 @@ const Inbox = () => {
             </head>
         
             <body>
-                <div class="pathway">
-                    <span class="homepathway">Home</span>
-                    <i class="arrowright"></i>
-                    <span class="inboxpathway">Inbox</span>
-                    </div>
                 <div class="searchinboxdiv">
                     <div class="searchinboxicon"></div>
                     <div class="searchinbox">
