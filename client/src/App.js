@@ -1,17 +1,17 @@
-import logo from '../src/assets/tritontrade.png';
 import './App.css';
 import AccountInfo from './components/AccountInfo';
-import Inbox from './components/Inbox'
+import NavBar from './components/NavBar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Inbox/>
+      <AccountInfo/>
+      <NavBar/>
         <BrowserRouter>
           <Routes>
-            <Route exact path="/inbox" element={<Inbox />} />
-            {/* <Route exact path="/accountinfo" element={<AccountInfo />} /> */}
+            <Route exact path="/accountinfo" element={<AccountInfo />} />
+            <Route exact path="/navbar" element={<NavBar />} />
           </Routes>
         </BrowserRouter>
     </div>
