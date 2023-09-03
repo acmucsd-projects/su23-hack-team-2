@@ -260,7 +260,7 @@
 	left:3px;
 	top:3px;
 }
-.e141_866 { 
+.theinfo { 
 	width:894px;
 	height:552px;
 	position:absolute;
@@ -324,7 +324,7 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e8_2991 { 
+.changename { 
 	color:rgba(60, 66, 66, 1);
 	width:59px;
 	height:22px;
@@ -335,6 +335,10 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.changename:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 .e59_1895 { 
 	width:894px;
@@ -367,7 +371,7 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e59_1898 { 
+.changepronouns { 
 	color:rgba(60, 66, 66, 1);
 	width:59px;
 	height:22px;
@@ -378,6 +382,10 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.changepronouns:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 .e59_1891 { 
 	width:894px;
@@ -410,7 +418,7 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e59_1894 { 
+.changecollege { 
 	color:rgba(60, 66, 66, 1);
 	width:59px;
 	height:22px;
@@ -421,6 +429,10 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.changecollege:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 .e8_2992 { 
 	width:894px;
@@ -453,7 +465,7 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e8_2995 { 
+.changeemail { 
 	color:rgba(60, 66, 66, 1);
 	width:59px;
 	height:22px;
@@ -464,6 +476,10 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.changeemail:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 .e8_2996 { 
 	width:894px;
@@ -496,7 +512,7 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e8_2999 { 
+.changephonenumber { 
 	color:rgba(60, 66, 66, 1);
 	width:59px;
 	height:22px;
@@ -507,6 +523,10 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.changephonenumber:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 .e8_3017 { 
 	width:894px;
@@ -527,7 +547,7 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e8_3019 { 
+.changepassword { 
 	color:rgba(60, 66, 66, 1);
 	width:59px;
 	height:22px;
@@ -538,6 +558,10 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.changepassword:hover{
+	text-decoration:underline;
+	cursor:pointer;
 }
 .e8_3020 { 
 	width:72px;
