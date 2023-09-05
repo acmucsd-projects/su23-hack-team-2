@@ -5,7 +5,7 @@ const Inbox = () => {
     return (
         <html>
             <head>
-                <meta charset="utf-8"/>
+                {/* <meta charset="utf-8"/> */}
                 <link href="https://fonts.googleapis.com/css?family=Inria+Sans&display=swap" rel="stylesheet"/>
                 <link rel="stylesheet" href="style.css"/>
             </head>

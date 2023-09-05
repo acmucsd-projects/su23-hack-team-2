@@ -18,7 +18,7 @@ const NavBar = () => {
                     </div>
                 </div>
             <div class="toprighticons">
-                <div class="wishlist">
+                <div class="wishlistshortcut">
                     <div class="wishlisticon"></div>
                 </div>
                 <div class="profile">

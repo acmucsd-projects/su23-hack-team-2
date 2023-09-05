@@ -12,8 +12,8 @@ function App() {
       <NavBar />
         <BrowserRouter>
           <Routes>
-            <Route exact path="/accountinfo" element={<AccountInfo />} />
             <Route exact path="/inbox" element={<Inbox />} />
+            <Route exact path="/accountinfo" element={<AccountInfo />} />
             <Route exact path="/wishlist" element={<Wishlist />} />
           </Routes>
         </BrowserRouter>

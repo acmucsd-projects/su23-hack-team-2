@@ -128,10 +128,11 @@
 	left:1137px;
 	top:0px;
 }
-.wishlist { 
+.wishlistshortcut { 
 	background-color:rgba(240, 240, 240, 1);
 	width:44px;
 	height:44px;
+	/* display: inline-block; */
 	position:absolute;
 	left:0px;
 	top:0px;
@@ -140,7 +141,7 @@
 	border-bottom-left-radius:8px;
 	border-bottom-right-radius:8px;
 }
-.wishlist:hover {
+.wishlistshortcut:hover {
 	cursor:pointer;
 }
 .wishlisticon { 
