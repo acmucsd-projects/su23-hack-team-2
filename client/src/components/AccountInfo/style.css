@@ -157,7 +157,7 @@
 	top:3px;
 }
 .e8_3003 { 
-	width:102px;
+	width:100px;
 	height:22px;
 	position:absolute;
 	left:37px;
@@ -165,7 +165,7 @@
 }
 .signout { 
 	color:rgba(128, 125, 126, 1);
-	width:66px;
+	width:100px;
 	height:22px;
 	position:absolute;
 	left:37px;
@@ -174,24 +174,6 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
-}
-.e8_3005 { 
-	width:22px;
-	height:22px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.i8_3005_278_786 { 
-	border:1.5px solid rgba(128, 125, 126, 1);
-}
-.ei8_3005_278_786 { 
-	width:16.5px;
-	height:16.5px;
-	position:absolute;
-	left:2px;
-	top:2.75px;
-	border-radius:15px;
 }
 .e8_3006 { 
 	width:295px;
