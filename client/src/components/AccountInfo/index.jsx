@@ -16,13 +16,16 @@ const AccountInfo = () => {
                     <div class="e8_2980"></div>
                 </div>
                 <span  class="welcomemessage">Welcome to your Account</span>
-                <div class="e8_3000">
-                    <span  class="e8_3001">Wishlist</span>
+                <div class="wishlisttab">
+                    <span class="wishlistbutton">Wishlist</span>
                 </div>
-                <div class="e8_3003">
-                    <span class="signout">Sign Out</span>
+                <div class="inboxshortcut">
+                    <span class="inboxbutton">Inbox</span>
                 </div>
-                <div class="e8_3006">
+                <div class="signoutshortcut">
+                    <span class="signoutbutton">Sign Out</span>
+                </div>
+                <div class="myinfotabdiv">
                     <div class="e8_3007">
                         <div class="e8_3008"></div>
                         <div class="e8_3009"></div>
