@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-const ProdDetails = () => {
+const ProductDetails = () => {
     return (
         <html>
             <head>
@@ -32,4 +32,4 @@ const ProdDetails = () => {
     );
   };
   
-  export default ProdDetails;
+  export default ProductDetails;
