@@ -3,11 +3,6 @@ const Post = require('../models/post');
 
 const router = express.Router();
 
-router.get('/create', async (req, res) => {
-    const posts = await Post.find().exec();
-    res.status(200).json({posts});
-});
-
 router.post('/home', async (req, res) => {
     const { post } = req.body;
     const {username, price, date, description, picture, categories} = post;
