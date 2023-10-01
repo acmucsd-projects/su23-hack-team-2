@@ -31,6 +31,7 @@
 	text-align:left;
 	font-size:22px;
 	letter-spacing:0;
+	text-decoration: none;
 }
 .academics:hover {
 	text-decoration:underline;
@@ -171,6 +172,7 @@
 .profileicon { 
 	width:24px;
 	height:24px;
+	border-radius: 50%;
 	position:absolute;
 	left:10px;
 	top:10px;

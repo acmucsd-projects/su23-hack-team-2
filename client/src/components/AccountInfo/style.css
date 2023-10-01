@@ -120,14 +120,14 @@
 	letter-spacing:2;
 	line-height:px;
 }
-.e8_3000 { 
+.wishlisttab { 
 	width:99px;
 	height:22px;
 	position:absolute;
 	left:37px;
 	top:96px;
 }
-.e8_3001 { 
+.wishlistbutton { 
 	color:rgba(128, 125, 126, 1);
 	width:65px;
 	height:22px;
@@ -139,6 +139,34 @@
 	font-size:18px;
 	letter-spacing:0;
 }
+.wishlistbutton:hover {
+	cursor:pointer;
+}
+
+.inboxshortcut {
+	width:99px;
+	height:22px;
+	position:absolute;
+	left:37px;
+	top:148px;
+}
+.inboxbutton {
+	color:rgba(128, 125, 126, 1);
+	width:65px;
+	height:22px;
+	position:absolute;
+	left:37px;
+	top:0px;
+	font-family:Inria Sans;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+
+}
+.inboxbutton:hover {
+	cursor:pointer;
+}
+
 .e8_3002 { 
 	width:20px;
 	height:20px;
@@ -156,16 +184,16 @@
 	left:2.5px;
 	top:3px;
 }
-.e8_3003 { 
-	width:102px;
+.signoutshortcut { 
+	width:100px;
 	height:22px;
 	position:absolute;
 	left:37px;
-	top:202px;
+	top:253px;
 }
-.signout { 
+.signoutbutton { 
 	color:rgba(128, 125, 126, 1);
-	width:66px;
+	width:100px;
 	height:22px;
 	position:absolute;
 	left:37px;
@@ -175,30 +203,15 @@
 	font-size:18px;
 	letter-spacing:0;
 }
-.e8_3005 { 
-	width:22px;
-	height:22px;
-	position:absolute;
-	left:0px;
-	top:0px;
+.signoutbutton:hover {
+	cursor:pointer;
 }
-.i8_3005_278_786 { 
-	border:1.5px solid rgba(128, 125, 126, 1);
-}
-.ei8_3005_278_786 { 
-	width:16.5px;
-	height:16.5px;
-	position:absolute;
-	left:2px;
-	top:2.75px;
-	border-radius:15px;
-}
-.e8_3006 { 
+.myinfotabdiv { 
 	width:295px;
 	height:44px;
 	position:absolute;
 	left:0px;
-	top:138px;
+	top:190px;
 }
 .e8_3007 { 
 	width:295px;
@@ -242,6 +255,9 @@
 	text-align:left;
 	font-size:18px;
 	letter-spacing:0;
+}
+.myinfotab:hover {
+	cursor:pointer;
 }
 .e8_3012 { 
 	width:20px;

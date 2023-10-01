@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from 'react-router-dom';
 
 const AccountInfo = () => {
   return (
@@ -8,34 +9,39 @@ const AccountInfo = () => {
             <link href="https://fonts.googleapis.com/css?family=Inria+Sans&display=swap" rel="stylesheet" />
             <link href="./style.css" rel="stylesheet" />
         </head>
-        <div class="e8_2971">
+
+        <body>
             <div class="e141_867">
-            <div class="e8_2978">
-                <span  class="helloyourname">Hello Jane</span>
-                <div class="e8_2980"></div>
-            </div>
-            <span  class="welcomemessage">Welcome to your Account</span>
-            <div class="e8_3000"><span  class="e8_3001">Wishlist</span>
-                <div class="e8_3002">
-                <div class="ei8_3002_211_516"></div>
+                <div class="e8_2978">
+                    <span  class="helloyourname">Hello Jane</span>
+                    <div class="e8_2980"></div>
                 </div>
-            </div>
-            <div class="e8_3003"><span  class="signout">Sign Out</span>
-                <div class="e8_3005">
-                <div class="ei8_3005_278_786"></div>
+                <span  class="welcomemessage">Welcome to your Account</span>
+                <div class="wishlisttab">
+                    <Link to = "/wishlist">
+                        <span class="wishlistbutton">Wishlist</span>
+                    </Link>
                 </div>
-            </div>
-            <div class="e8_3006">
-                <div class="e8_3007">
-                <div class="e8_3008"></div>
-                <div class="e8_3009"></div>
+                <div class="inboxshortcut">
+                    <Link to = "/inbox">
+                        <span class="inboxbutton">Inbox</span>
+                    </Link>
                 </div>
-                <div class="e8_3010"><span  class="myinfotab">My Info</span>
-                <div class="e8_3012">
-                    <div class="ei8_3012_211_518"></div>
+                <div class="signoutshortcut">
+                    <span class="signoutbutton">Sign Out</span>
                 </div>
+                <div class="myinfotabdiv">
+                    <div class="e8_3007">
+                        <div class="e8_3008"></div>
+                        <div class="e8_3009"></div>
+                    </div>
+                    <div class="e8_3010">
+                        <span  class="myinfotab">My Info</span>
+                        <div class="e8_3012">
+                            <div class="ei8_3012_211_518"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
             <div class="theinfo">
                 <span  class="e8_2981">My Info</span>
@@ -76,11 +82,10 @@ const AccountInfo = () => {
                         <div class="hiddenpassword"></div>
                         <div class="hiddenpassword"></div>
                         <div class="hiddenpassword"></div>
-
                     </div>
                 </div>
             </div>
-        </div>
+        </body>
     </html>
   );
 };
