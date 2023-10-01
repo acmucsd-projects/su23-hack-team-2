@@ -1,5 +1,9 @@
 import React from "react";
 import "./style.css";
+import algoliasearch from 'algoliasearch/lite';
+import { InstantSearch, RefinementList } from 'react-instantsearch';
+
+const searchClient = algoliasearch('undefined', 'undefined');
 
 const NavBar = () => {
   return (
@@ -12,10 +16,15 @@ const NavBar = () => {
                 <span class="more">More</span>
                 </div>
             <div class="searchalldiv">
+            <InstantSearch searchClient={searchClient} indexName="instant_search">
+                <RefinementList attribute="brand" />
+            </InstantSearch>
+            {/*
                 <div class="searchallicon"></div>
                     <div class="searchall">
                         <input type="text" class="searchinnavbar" placeholder="Search"></input>
                     </div>
+                  */}
                 </div>
             <div class="toprighticons">
                 <div class="wishlist">
