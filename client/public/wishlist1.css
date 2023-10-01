@@ -1,1787 +1,439 @@
-.container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-  }
-  .wishlist {
-    width: 100%;
-    height: 1767px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-    background-color: rgba(255, 255, 255, 1);
-  }
-  .frame9 {
-    gap: 15px;
-    top: 131px;
-    left: 101px;
-    width: 276px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-  }
-  .text {
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .left-stroke {
-    width: 5px;
-    height: 10px;
-  }
-  .text002 {
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .left-stroke1 {
-    width: 5px;
-    height: 10px;
-  }
-  .text004 {
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .rectangle760 {
-    top: -33px;
-    left: 2px;
-    width: 1440px;
-    height: 1128px;
-    position: absolute;
-  }
-  .product-description {
-    top: 205px;
-    left: 101px;
-    width: 304px;
-    height: 31px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text006 {
-    left: 21px;
-    color: rgba(60, 66, 66, 1);
-    width: 183px;
-    height: auto;
-    position: absolute;
-    font-size: 28px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 33.5px;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .rectangle21 {
-    top: 1px;
-    left: 0px;
-    width: 6px;
-    height: 28px;
-    position: absolute;
-    border-radius: 10px;
-  }
-  .text008 {
-    top: 205px;
-    left: 445px;
-    color: rgba(60, 66, 66, 1);
-    width: 183px;
-    height: auto;
-    position: absolute;
-    font-size: 28px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 33.5px;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text010 {
-    top: 246px;
-    left: 101px;
-    color: rgba(128, 125, 126, 1);
-    width: 215px;
-    height: auto;
-    position: absolute;
-    font-size: 14px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 33.5px;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame455 {
-    top: 318px;
-    left: 137px;
-    width: 114px;
-    height: 22px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text012 {
-    left: 37px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .myorders {
-    top: 0px;
-    left: 0px;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-  }
-  .frame477 {
-    top: 359px;
-    left: 100px;
-    width: 295px;
-    height: 44px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .frame459 {
-    top: 0px;
-    left: 0px;
-    width: 295px;
-    height: 44px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .rectangle748 {
-    top: 0px;
-    left: 0px;
-    width: 295px;
-    height: 44px;
-    position: absolute;
-  }
-  .rectangle749 {
-    top: 0px;
-    left: 0px;
-    width: 2px;
-    height: 44px;
-    position: absolute;
-  }
-  .frame456 {
-    top: 11px;
-    left: 37px;
-    width: 99px;
-    height: 22px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text014 {
-    left: 37px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .heart {
-    top: 1px;
-    left: 0px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-  }
-  .frame458 {
-    top: 476px;
-    left: 137px;
-    width: 102px;
-    height: 22px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text016 {
-    left: 37px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .signout {
-    top: 0px;
-    left: 0px;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-  }
-  .frame457 {
-    top: 423px;
-    left: 137px;
-    width: 93px;
-    height: 22px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text018 {
-    left: 37px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .user {
-    top: 1px;
-    left: 0px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-  }
-  .line1 {
-    top: 426.00006103515625px;
-    left: 445px;
-    width: 894px;
-    height: 1px;
-    position: absolute;
-  }
-  .line2 {
-    top: 596.0000610351562px;
-    left: 445px;
-    width: 894px;
-    height: 1px;
-    position: absolute;
-  }
-  .line3 {
-    top: 766.0000610351562px;
-    left: 445px;
-    width: 894px;
-    height: 1px;
-    position: absolute;
-  }
-  .line4 {
-    top: 936.0000610351562px;
-    left: 445px;
-    width: 894px;
-    height: 1px;
-    position: absolute;
-  }
-  .wishlistproduct {
-    gap: 36px;
-    top: 286px;
-    left: 445px;
-    width: 903px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-  }
-  .closecross {
-    width: 22px;
-    height: 22px;
-  }
-  .rectangle754 {
-    width: 110px;
-    height: 110px;
-    border-radius: 4px;
-  }
-  .frame479 {
-    width: 699px;
-    height: 102px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text020 {
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text022 {
-    top: 76px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text023 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .frame478 {
-    top: 26px;
-    left: 0px;
-    width: 699px;
-    height: 50px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text024 {
-    top: 12px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text025 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .text027 {
-    top: 12px;
-    left: 427px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .button {
-    gap: 12px;
-    top: 0px;
-    left: 549px;
-    width: 143px;
-    display: flex;
-    padding: 14px 28px;
-    position: absolute;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(25, 137, 172, 1);
-  }
-  .text029 {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: center;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .wishlistproduct1 {
-    gap: 36px;
-    top: 456px;
-    left: 445px;
-    width: 903px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-  }
-  .closecross1 {
-    width: 22px;
-    height: 22px;
-  }
-  .rectangle7541 {
-    width: 110px;
-    height: 110px;
-    border-radius: 4px;
-  }
-  .frame4791 {
-    width: 699px;
-    height: 102px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text031 {
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text033 {
-    top: 76px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text034 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .frame4781 {
-    top: 26px;
-    left: 0px;
-    width: 699px;
-    height: 50px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text035 {
-    top: 12px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text036 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .text038 {
-    top: 12px;
-    left: 427px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .button1 {
-    gap: 12px;
-    top: 0px;
-    left: 549px;
-    width: 143px;
-    display: flex;
-    padding: 14px 28px;
-    position: absolute;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(25, 137, 172, 1);
-  }
-  .text040 {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: center;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .wishlistproduct2 {
-    gap: 36px;
-    top: 626px;
-    left: 445px;
-    width: 903px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-  }
-  .closecross2 {
-    width: 22px;
-    height: 22px;
-  }
-  .rectangle7542 {
-    width: 110px;
-    height: 110px;
-    border-radius: 4px;
-  }
-  .frame4792 {
-    width: 699px;
-    height: 102px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text042 {
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text044 {
-    top: 76px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text045 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .frame4782 {
-    top: 26px;
-    left: 0px;
-    width: 699px;
-    height: 50px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text046 {
-    top: 12px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text047 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .text049 {
-    top: 12px;
-    left: 427px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .button2 {
-    gap: 12px;
-    top: 0px;
-    left: 549px;
-    width: 143px;
-    display: flex;
-    padding: 14px 28px;
-    position: absolute;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(25, 137, 172, 1);
-  }
-  .text051 {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: center;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .wishlistproduct3 {
-    gap: 36px;
-    top: 796px;
-    left: 445px;
-    width: 903px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-  }
-  .closecross3 {
-    width: 22px;
-    height: 22px;
-  }
-  .rectangle7543 {
-    width: 110px;
-    height: 110px;
-    border-radius: 4px;
-  }
-  .frame4793 {
-    width: 699px;
-    height: 102px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text053 {
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text055 {
-    top: 76px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text056 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .frame4783 {
-    top: 26px;
-    left: 0px;
-    width: 699px;
-    height: 50px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text057 {
-    top: 12px;
-    color: rgba(60, 66, 66, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text058 {
-    color: rgba(60, 66, 66, 1);
-    font-weight: 400;
-  }
-  .text060 {
-    top: 12px;
-    left: 427px;
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    position: absolute;
-    font-size: 22px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .button3 {
-    gap: 12px;
-    top: 0px;
-    left: 549px;
-    width: 143px;
-    display: flex;
-    padding: 14px 28px;
-    position: absolute;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(25, 137, 172, 1);
-  }
-  .text062 {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: center;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .taskbaar {
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 108px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .frame510 {
-    top: 31px;
-    left: 102px;
-    width: 1237px;
-    height: 45px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .details {
-    gap: 40px;
-    top: 9px;
-    left: 179px;
-    width: 478px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-  }
-  .text064 {
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    font-size: 22px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text066 {
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    font-size: 22px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text068 {
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    font-size: 22px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text070 {
-    color: rgba(127, 124, 125, 1);
-    height: auto;
-    font-size: 22px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text072 {
-    color: rgba(127, 124, 125, 1);
-    height: auto;
-    font-size: 22px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .button4 {
-    gap: 12px;
-    top: 0px;
-    left: 738px;
-    width: 267px;
-    display: flex;
-    padding: 12px 20px;
-    position: absolute;
-    align-items: center;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .search {
-    width: 20px;
-    height: 20px;
-  }
-  .text074 {
-    color: rgba(128, 125, 126, 1);
-    height: auto;
-    font-size: 16px;
-    font-style: Regular;
-    text-align: center;
-    font-family: Inria Sans;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame389 {
-    gap: 12px;
-    top: 0px;
-    left: 1081px;
-    width: 156px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-  }
-  .component1 {
-    gap: 12px;
-    display: flex;
-    padding: 12px;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .heart1 {
-    width: 20px;
-    height: 20px;
-  }
-  .component2 {
-    gap: 12px;
-    display: flex;
-    padding: 12px;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(25, 137, 172, 1);
-  }
-  .user1 {
-    width: 20px;
-    height: 20px;
-  }
-  .component3 {
-    gap: 12px;
-    display: flex;
-    padding: 12px;
-    align-items: center;
-    border-radius: 8px;
-    justify-content: center;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .shoppingcart {
-    width: 20px;
-    height: 20px;
-  }
-  .rectangle14 {
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 108px;
-    position: absolute;
-    border-color: rgba(190, 188, 189, 1);
-  }
-  .image3 {
-    top: 6px;
-    left: 29px;
-    width: 146px;
-    height: 96px;
-    position: absolute;
-  }
-  .needhelpsection {
-    top: 1036px;
-    left: 0px;
-    width: 1440px;
-    height: 731px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .rectangle36 {
-    top: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 731px;
-    position: absolute;
-  }
-  .frame127 {
-    top: 59px;
-    left: 110px;
-    width: 1220px;
-    height: 613px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .frame126 {
-    top: 361px;
-    left: 746px;
-    width: 329px;
-    height: 52.26146697998047px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .group {
-    top: 1px;
-    left: 175px;
-    width: 153.76187133789062px;
-    height: 51.26146697998047px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .vector {
-    top: 0px;
-    left: 0px;
-    width: 154px;
-    height: 51px;
-    position: absolute;
-  }
-  .frame125 {
-    top: 8.849609375px;
-    left: 50.841796875px;
-    width: 78px;
-    height: 35.151123046875px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text076 {
-    left: 2.332763671875px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 10px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text078 {
-    top: 13.151123046875px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .group1 {
-    top: 10.737545013427734px;
-    left: 8.670614242553711px;
-    width: 20.621408462524414px;
-    height: 31.628419876098633px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .vector01 {
-    top: 0px;
-    left: 0px;
-    width: 21px;
-    height: 32px;
-    position: absolute;
-  }
-  .vector02 {
-    top: 3.796419143676758px;
-    left: 1.123192310333252px;
-    width: 18px;
-    height: 22px;
-    position: absolute;
-  }
-  .group2 {
-    top: 1.4149147272109985px;
-    left: 5.975327491760254px;
-    width: 8.648417472839355px;
-    height: 1.1231693029403687px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .group3 {
-    top: 0px;
-    left: 0px;
-    width: 8.648417472839355px;
-    height: 1.1231693029403687px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .vector03 {
-    top: 0px;
-    left: 0px;
-    width: 9px;
-    height: 1px;
-    position: absolute;
-  }
-  .vector04 {
-    top: 26.843835830688477px;
-    left: 8.513928413391113px;
-    width: 4px;
-    height: 4px;
-    position: absolute;
-  }
-  .group4 {
-    top: 0px;
-    left: 0px;
-    width: 153.76187133789062px;
-    height: 51.23897933959961px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .vector05 {
-    top: 0px;
-    left: 0px;
-    width: 154px;
-    height: 51px;
-    position: absolute;
-  }
-  .frame124 {
-    top: 9px;
-    left: 41.8846435546875px;
-    width: 92px;
-    height: 33.7607421875px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text080 {
-    left: 8.7022705078125px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 10px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text082 {
-    top: 12.7607421875px;
-    left: 6px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 400;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .group5 {
-    top: 9.14250373840332px;
-    left: 8.670614242553711px;
-    width: 29.651813507080078px;
-    height: 32.976318359375px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-  }
-  .vector06 {
-    top: 0px;
-    left: 0px;
-    width: 30px;
-    height: 33px;
-    position: absolute;
-  }
-  .vector07 {
-    top: 0px;
-    left: 0px;
-    width: 30px;
-    height: 21px;
-    position: absolute;
-  }
-  .vector08 {
-    top: 11.231348037719727px;
-    left: -0.000039852431655162945px;
-    width: 30px;
-    height: 22px;
-    position: absolute;
-  }
-  .vector09 {
-    top: 11.231348037719727px;
-    left: 16.12898063659668px;
-    width: 14px;
-    height: 10px;
-    position: absolute;
-  }
-  .icon {
-    top: 492.556640625px;
-    left: 1187.8052978515625px;
-    width: 8px;
-    height: 17px;
-    position: absolute;
-  }
-  .frame123 {
-    top: 0px;
-    left: 76px;
-    width: 1059px;
-    height: 292px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .frame122 {
-    top: 0px;
-    left: 665px;
-    width: 394px;
-    height: 204px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text084 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 28.57913589477539px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame118 {
-    top: 77px;
-    left: 0px;
-    width: 394px;
-    height: 127px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text086 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text088 {
-    top: 44px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text090 {
-    top: 88px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame121 {
-    top: 0px;
-    left: 423px;
-    width: 162px;
-    height: 248px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text092 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 28.57913589477539px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame117 {
-    top: 77px;
-    left: 0px;
-    width: 162px;
-    height: 171px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text094 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text096 {
-    top: 44px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text098 {
-    top: 88px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text100 {
-    top: 132px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame119 {
-    top: 0px;
-    left: 0px;
-    width: 142px;
-    height: 292px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text102 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 28.57913589477539px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame115 {
-    top: 77px;
-    left: 0px;
-    width: 142px;
-    height: 215px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text104 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text106 {
-    top: 44px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text108 {
-    top: 88px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text110 {
-    top: 132px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text112 {
-    top: 176px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame120 {
-    top: 0px;
-    left: 222px;
-    width: 121px;
-    height: 292px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text114 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 28.57913589477539px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame116 {
-    top: 77px;
-    left: 0px;
-    width: 108px;
-    height: 215px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 0;
-  }
-  .text116 {
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text118 {
-    top: 44px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text120 {
-    top: 88px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text122 {
-    top: 132px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text124 {
-    top: 176px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inria Sans;
-    font-weight: 700;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text126 {
-    top: 280px;
-    left: 665px;
-    color: rgba(246, 246, 246, 1);
-    height: auto;
-    position: absolute;
-    font-size: 28.57913589477539px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 216.89999103546143%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .text128 {
-    top: 485px;
-    left: 76px;
-    color: rgba(246, 246, 246, 1);
-    width: 242px;
-    height: auto;
-    position: absolute;
-    font-size: 28.57913589477539px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 200%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .frame18 {
-    gap: 9.968000411987305px;
-    top: 369px;
-    left: 83px;
-    width: 178px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-  }
-  .group10 {
-    width: 37px;
-    height: 37.02399826049805px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 1;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .vector10 {
-    top: 9.256207466125488px;
-    left: 13.527999877929688px;
-    width: 10px;
-    height: 18px;
-    position: absolute;
-  }
-  .group11 {
-    width: 37px;
-    height: 37.02399826049805px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 1;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .vector11 {
-    top: 10.679963111877441px;
-    left: 10.68005657196045px;
-    width: 16px;
-    height: 16px;
-    position: absolute;
-  }
-  .group12 {
-    width: 37px;
-    height: 37.02399826049805px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 1;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .vector12 {
-    top: 11.391963005065918px;
-    left: 11.39211368560791px;
-    width: 18px;
-    height: 14px;
-    position: absolute;
-  }
-  .group13 {
-    width: 37px;
-    height: 37.02399826049805px;
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    flex-shrink: 1;
-    background-color: rgba(246, 246, 246, 1);
-  }
-  .text130 {
-    top: 4.271963119506836px;
-    left: 11.391925811767578px;
-    color: rgba(42, 47, 47, 1);
-    width: 16px;
-    height: auto;
-    position: absolute;
-    font-size: 17.088001251220703px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Roboto;
-    font-weight: 700;
-    line-height: 28.479999542236328px;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .line5 {
-    top: 456px;
-    left: 0px;
-    width: 1220px;
-    height: 1px;
-    opacity: 0.40;
-    position: absolute;
-  }
-  .line6 {
-    top: 540px;
-    left: 0px;
-    width: 1220px;
-    height: 1px;
-    opacity: 0.40;
-    position: absolute;
-  }
-  .text132 {
-    top: 577px;
-    left: 377px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Regular;
-    text-align: left;
-    font-family: Abel;
-    font-weight: 400;
-    line-height: 200%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  
+<div>
+  <link href="./wishlist1.css" rel="stylesheet" />
+  <div class="wishlist1-container">
+    <div class="wishlist1-wishlist">
+      <div class="wishlist1-frame9">
+        <span class="wishlist1-text"><span>Home</span></span>
+        <img
+          alt="leftStroke8334"
+          src="/leftstroke8334-tv8i.svg"
+          class="wishlist1-left-stroke"
+        />
+        <span class="wishlist1-text002"><span>My Account</span></span>
+        <img
+          alt="leftStroke8335"
+          src="/leftstroke8335-qv9p.svg"
+          class="wishlist1-left-stroke1"
+        />
+        <span class="wishlist1-text004"><span>Wishlist</span></span>
+      </div>
+      <img
+        alt="Rectangle7606417"
+        src="/rectangle7606417-9dx8.svg"
+        class="wishlist1-rectangle760"
+      />
+      <div class="wishlist1-product-description">
+        <span class="wishlist1-text006"><span>Hello Jhanvi</span></span>
+        <img
+          alt="Rectangle218335"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/e376a69d-51a8-415a-89fe-93f83fcbeb73?org_if_sml=1216"
+          class="wishlist1-rectangle21"
+        />
+      </div>
+      <span class="wishlist1-text008"><span>Wishlist</span></span>
+      <span class="wishlist1-text010">
+        <span>Welcome to your Account</span>
+      </span>
+      <div class="wishlist1-frame455">
+        <span class="wishlist1-text012"><span>My orders</span></span>
+        <img
+          alt="myorders8336"
+          src="/myorders8336-v25q.svg"
+          class="wishlist1-myorders"
+        />
+      </div>
+      <div class="wishlist1-frame477">
+        <div class="wishlist1-frame459">
+          <img
+            alt="Rectangle7488336"
+            src="/rectangle7488336-f7bf.svg"
+            class="wishlist1-rectangle748"
+          />
+          <img
+            alt="Rectangle7498336"
+            src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/ddf01f41-5aed-4f4a-819b-40ff2de1c9e6?org_if_sml=1140"
+            class="wishlist1-rectangle749"
+          />
+        </div>
+        <div class="wishlist1-frame456">
+          <span class="wishlist1-text014"><span>Wishlist</span></span>
+          <img
+            alt="heart8336"
+            src="/heart8336-pwjwk.svg"
+            class="wishlist1-heart"
+          />
+        </div>
+      </div>
+      <div class="wishlist1-frame458">
+        <span class="wishlist1-text016"><span>Sign out</span></span>
+        <img
+          alt="signout8337"
+          src="/signout8337-500k.svg"
+          class="wishlist1-signout"
+        />
+      </div>
+      <div class="wishlist1-frame457">
+        <span class="wishlist1-text018"><span>My info</span></span>
+        <img alt="user8337" src="/user8337-52gc.svg" class="wishlist1-user" />
+      </div>
+      <img alt="Line18337" src="/line18337-xn48.svg" class="wishlist1-line1" />
+      <img alt="Line28337" src="/line28337-c3xh.svg" class="wishlist1-line2" />
+      <img alt="Line38337" src="/line38337-zj8j.svg" class="wishlist1-line3" />
+      <img alt="Line48337" src="/line48337-9lf.svg" class="wishlist1-line4" />
+      <div class="wishlist1-wishlistproduct">
+        <img
+          alt="closecrossI833"
+          src="/closecrossi833-ldfp.svg"
+          class="wishlist1-closecross"
+        />
+        <img
+          alt="Rectangle754I833"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/659ab20e-a709-4133-93c8-29047b0f1864?org_if_sml=127693"
+          class="wishlist1-rectangle754"
+        />
+        <div class="wishlist1-frame479">
+          <span class="wishlist1-text020">
+            <span>Blue Flower Print Crop Top</span>
+          </span>
+          <span class="wishlist1-text022">
+            <span class="wishlist1-text023">Quantity : 1</span>
+          </span>
+          <div class="wishlist1-frame478">
+            <span class="wishlist1-text024">
+              <span class="wishlist1-text025">Color :</span>
+              <span>Yellow</span>
+            </span>
+            <span class="wishlist1-text027"><span>$29.00</span></span>
+            <button class="wishlist1-button">
+              <span class="wishlist1-text029"><span>Add to cart</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="wishlist1-wishlistproduct1">
+        <img
+          alt="closecrossI833"
+          src="/closecrossi833-q2l.svg"
+          class="wishlist1-closecross1"
+        />
+        <img
+          alt="Rectangle754I833"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/a1757aa7-8ac4-4d7d-85a1-1f2a2c2c33c3?org_if_sml=121457"
+          class="wishlist1-rectangle7541"
+        />
+        <div class="wishlist1-frame4791">
+          <span class="wishlist1-text031">
+            <span>Yellow Flower Print Dress</span>
+          </span>
+          <span class="wishlist1-text033">
+            <span class="wishlist1-text034">Quantity : 1</span>
+          </span>
+          <div class="wishlist1-frame4781">
+            <span class="wishlist1-text035">
+              <span class="wishlist1-text036">Color :</span>
+              <span>Yellow</span>
+            </span>
+            <span class="wishlist1-text038"><span>$78.00</span></span>
+            <button class="wishlist1-button1">
+              <span class="wishlist1-text040"><span>Add to cart</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="wishlist1-wishlistproduct2">
+        <img
+          alt="closecrossI833"
+          src="/closecrossi833-c01g.svg"
+          class="wishlist1-closecross2"
+        />
+        <img
+          alt="Rectangle754I833"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/721536e9-3e4b-4b32-9492-f44ff8800ae9?org_if_sml=119106"
+          class="wishlist1-rectangle7542"
+        />
+        <div class="wishlist1-frame4792">
+          <span class="wishlist1-text042">
+            <span>White Hoodie long sleeve</span>
+          </span>
+          <span class="wishlist1-text044">
+            <span class="wishlist1-text045">Quantity : 1</span>
+          </span>
+          <div class="wishlist1-frame4782">
+            <span class="wishlist1-text046">
+              <span class="wishlist1-text047">Color :</span>
+              <span>White</span>
+            </span>
+            <span class="wishlist1-text049"><span>$134.00</span></span>
+            <button class="wishlist1-button2">
+              <span class="wishlist1-text051"><span>Add to cart</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="wishlist1-wishlistproduct3">
+        <img
+          alt="closecrossI833"
+          src="/closecrossi833-c91.svg"
+          class="wishlist1-closecross3"
+        />
+        <img
+          alt="Rectangle754I833"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/9f9d2de5-6869-4f11-b943-1978cde69639?org_if_sml=118961"
+          class="wishlist1-rectangle7543"
+        />
+        <div class="wishlist1-frame4793">
+          <span class="wishlist1-text053">
+            <span>Brown men’s long sleeve T-shirt</span>
+          </span>
+          <span class="wishlist1-text055">
+            <span class="wishlist1-text056">Quantity : 1</span>
+          </span>
+          <div class="wishlist1-frame4783">
+            <span class="wishlist1-text057">
+              <span class="wishlist1-text058">Color :</span>
+              <span>Brown</span>
+            </span>
+            <span class="wishlist1-text060"><span>$93.00</span></span>
+            <button class="wishlist1-button3">
+              <span class="wishlist1-text062"><span>Add to cart</span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="wishlist1-taskbaar">
+        <div class="wishlist1-frame510">
+          <div class="wishlist1-details">
+            <span class="wishlist1-text064"><span>Shop</span></span>
+            <span class="wishlist1-text066"><span>Men</span></span>
+            <span class="wishlist1-text068"><span>Women</span></span>
+            <span class="wishlist1-text070"><span>Combos</span></span>
+            <span class="wishlist1-text072"><span>Joggers</span></span>
+          </div>
+          <button class="wishlist1-button4">
+            <img
+              alt="searchI833"
+              src="/searchi833-phhk.svg"
+              class="wishlist1-search"
+            />
+            <span class="wishlist1-text074"><span>Search</span></span>
+          </button>
+          <div class="wishlist1-frame389">
+            <div class="wishlist1-component1">
+              <img
+                alt="heartI833"
+                src="/hearti833-3iaw.svg"
+                class="wishlist1-heart1"
+              />
+            </div>
+            <div class="wishlist1-component2">
+              <img
+                alt="userI833"
+                src="/useri833-bm9q.svg"
+                class="wishlist1-user1"
+              />
+            </div>
+            <div class="wishlist1-component3">
+              <img
+                alt="shoppingcartI833"
+                src="/shoppingcarti833-bvby7.svg"
+                class="wishlist1-shoppingcart"
+              />
+            </div>
+          </div>
+        </div>
+        <img alt="Rectangle148339" src="." class="wishlist1-rectangle14" />
+        <img
+          alt="image31057"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/d7010364-9b3d-461e-a1ca-fcd4d985127e?org_if_sml=15372"
+          class="wishlist1-image3"
+        />
+      </div>
+      <div class="wishlist1-needhelpsection">
+        <img
+          alt="Rectangle368339"
+          src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/2db81265-4aed-4109-8c02-5fa43fa0f7d8/e3f12d87-05bd-487f-9b3a-e951bd01d3a8?org_if_sml=15803"
+          class="wishlist1-rectangle36"
+        />
+        <div class="wishlist1-frame127">
+          <div class="wishlist1-frame126">
+            <div class="wishlist1-group">
+              <img
+                alt="Vector8340"
+                src="/vector8340-nutt1.svg"
+                class="wishlist1-vector"
+              />
+              <div class="wishlist1-frame125">
+                <span class="wishlist1-text076">
+                  <span>Available on the</span>
+                </span>
+                <span class="wishlist1-text078"><span>App Store</span></span>
+              </div>
+              <div class="wishlist1-group1">
+                <img
+                  alt="Vector8340"
+                  src="/vector8340-tqmb.svg"
+                  class="wishlist1-vector01"
+                />
+                <img
+                  alt="Vector8340"
+                  src="/vector8340-b4s.svg"
+                  class="wishlist1-vector02"
+                />
+                <div class="wishlist1-group2">
+                  <div class="wishlist1-group3">
+                    <img
+                      alt="Vector8341"
+                      src="/vector8341-off.svg"
+                      class="wishlist1-vector03"
+                    />
+                  </div>
+                </div>
+                <img
+                  alt="Vector8341"
+                  src="/vector8341-n0gd.svg"
+                  class="wishlist1-vector04"
+                />
+              </div>
+            </div>
+            <div class="wishlist1-group4">
+              <img
+                alt="Vector8341"
+                src="/vector8341-zu3m.svg"
+                class="wishlist1-vector05"
+              />
+              <div class="wishlist1-frame124">
+                <span class="wishlist1-text080">
+                  <span>android app on</span>
+                </span>
+                <span class="wishlist1-text082"><span>Google Play</span></span>
+              </div>
+              <div class="wishlist1-group5">
+                <img
+                  alt="Vector8341"
+                  src="/vector8341-89hq.svg"
+                  class="wishlist1-vector06"
+                />
+                <img
+                  alt="Vector8342"
+                  src="/vector8342-mnz8.svg"
+                  class="wishlist1-vector07"
+                />
+                <img
+                  alt="Vector8342"
+                  src="/vector8342-amda.svg"
+                  class="wishlist1-vector08"
+                />
+                <img
+                  alt="Vector8342"
+                  src="/vector8342-ke06.svg"
+                  class="wishlist1-vector09"
+                />
+              </div>
+            </div>
+          </div>
+          <img alt="Icon8342" src="/icon8342-f9vi.svg" class="wishlist1-icon" />
+          <div class="wishlist1-frame123">
+            <div class="wishlist1-frame122">
+              <span class="wishlist1-text084"><span>Location</span></span>
+              <div class="wishlist1-frame118">
+                <span class="wishlist1-text086">
+                  <span>support@euphoria.in</span>
+                </span>
+                <span class="wishlist1-text088">
+                  <span>Eklingpura Chouraha, Ahmedabad Main Road</span>
+                </span>
+                <span class="wishlist1-text090">
+                  <span>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</span>
+                </span>
+              </div>
+            </div>
+            <div class="wishlist1-frame121">
+              <span class="wishlist1-text092"><span>More Info</span></span>
+              <div class="wishlist1-frame117">
+                <span class="wishlist1-text094">
+                  <span>Term and Conditions</span>
+                </span>
+                <span class="wishlist1-text096">
+                  <span>Privacy Policy</span>
+                </span>
+                <span class="wishlist1-text098">
+                  <span>Shipping Policy</span>
+                </span>
+                <span class="wishlist1-text100"><span>Sitemap</span></span>
+              </div>
+            </div>
+            <div class="wishlist1-frame119">
+              <span class="wishlist1-text102"><span>Need Help</span></span>
+              <div class="wishlist1-frame115">
+                <span class="wishlist1-text104"><span>Contact Us</span></span>
+                <span class="wishlist1-text106"><span>Track Order</span></span>
+                <span class="wishlist1-text108">
+                  <span>Returns &amp; Refunds</span>
+                </span>
+                <span class="wishlist1-text110"><span>FAQ&apos;s</span></span>
+                <span class="wishlist1-text112"><span>Career</span></span>
+              </div>
+            </div>
+            <div class="wishlist1-frame120">
+              <span class="wishlist1-text114"><span>Company</span></span>
+              <div class="wishlist1-frame116">
+                <span class="wishlist1-text116"><span>About Us</span></span>
+                <span class="wishlist1-text118">
+                  <span>euphoria Blog</span>
+                </span>
+                <span class="wishlist1-text120"><span>euphoriastan</span></span>
+                <span class="wishlist1-text122">
+                  <span>Collaboration</span>
+                </span>
+                <span class="wishlist1-text124"><span>Media</span></span>
+              </div>
+            </div>
+            <span class="wishlist1-text126"><span>Download The App</span></span>
+          </div>
+          <span class="wishlist1-text128"><span>Popular Categories</span></span>
+          <div class="wishlist1-frame18">
+            <div class="wishlist1-group10">
+              <img
+                alt="Vector8345"
+                src="/vector8345-nvno.svg"
+                class="wishlist1-vector10"
+              />
+            </div>
+            <div class="wishlist1-group11">
+              <img
+                alt="Vector8346"
+                src="/vector8346-m6lb.svg"
+                class="wishlist1-vector11"
+              />
+            </div>
+            <div class="wishlist1-group12">
+              <img
+                alt="Vector8346"
+                src="/vector8346-wt3o.svg"
+                class="wishlist1-vector12"
+              />
+            </div>
+            <div class="wishlist1-group13">
+              <span class="wishlist1-text130"><span>in</span></span>
+            </div>
+          </div>
+          <img
+            alt="Line58346"
+            src="/line58346-n9ft.svg"
+            class="wishlist1-line5"
+          />
+          <img
+            alt="Line68347"
+            src="/line68347-ltsd.svg"
+            class="wishlist1-line6"
+          />
+          <span class="wishlist1-text132">
+            <span>
+              Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
