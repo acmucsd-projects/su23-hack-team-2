@@ -6,9 +6,9 @@ const PagePath = () => {
     <div class="path">
         <span class="home">Home</span>
         <i class="arrowright"></i>
-        <span class="myaccount">My Account</span>
+        <span class="clothingpath">Clothing</span>
         <i class="arrowright2"></i>
-        <span class="accountinfo">Account Info</span>
+        <span class="tops">Tops</span>
     </div>
   );
 };
