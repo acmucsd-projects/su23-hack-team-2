@@ -122,11 +122,31 @@
 
 /* top right buttons */
 .toprighticons { 
-	width:100px;
+	width:150px;
 	height:44px;
 	position:absolute;
-	left:1137px;
+	left:1100px;
 	top:0px;
+}
+.createlisting {
+	background-color:rgba(25, 137, 172, 0.8);
+	width:44px;
+	height:44px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:8px;
+}
+.createlistingicon {
+	font-family: Inria Sans;
+	color: white;
+	font-size:35px;
+	position:absolute;
+	left:12px;
+	top:-1px;
 }
 .wishlistshortcut { 
 	background-color:rgba(240, 240, 240, 1);
@@ -134,7 +154,7 @@
 	height:44px;
 	/* display: inline-block; */
 	position:absolute;
-	left:0px;
+	left:50px;
 	top:0px;
 	border-top-left-radius:8px;
 	border-top-right-radius:8px;
@@ -159,7 +179,7 @@
 	width:44px;
 	height:44px;
 	position:absolute;
-	left:56px;
+	left:100px;
 	top:0px;
 	border-top-left-radius:8px;
 	border-top-right-radius:8px;

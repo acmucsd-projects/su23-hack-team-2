@@ -18,6 +18,9 @@ const NavBar = () => {
                     </div>
                 </div>
             <div class="toprighticons">
+                <div class="createlisting">
+                    <div class="createlistingicon">+</div>
+                </div>
                 <div class="wishlistshortcut">
                     <div class="wishlisticon"></div>
                 </div>
