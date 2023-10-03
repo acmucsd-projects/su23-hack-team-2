@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import algoliasearch from 'algoliasearch/lite';
-import { InstantSearch, SearchBox } from 'react-instantsearch';
+import { InstantSearch, SearchBox, Hits } from 'react-instantsearch';
 
 const searchClient = algoliasearch('BF6BAXRV38', '9ab225dfafbf63a1619c25d83a7518f0');
 
 const NavBar = () => {
+
+    const [query, setQuery] = useState('');
+    const handleSearch = (event) => {
+        event.preventDefault(); // Prevent the default form submission behavior
+        // You can perform additional actions before submitting the query
+        // For example, analytics tracking, validation, etc.
+        console.log(`Performing search for: ${query}`);
+    };
+    
   return (
     <div class="navbardiv">
         <div class="navbar">
@@ -17,8 +26,13 @@ const NavBar = () => {
                 </div>
             <div class="searchalldiv">
             <InstantSearch searchClient={searchClient} indexName="tritontrade">
-                <SearchBox placeholder="Search for products" />
-                
+                <SearchBox
+                    onSubmit={handleSearch}
+                    onChange={(e) => setQuery(e.currentTarget.value)}
+                    value={query}
+                    placeholder="Search for products" 
+                />
+                <Hits />
             </InstantSearch>
             {/*
                 <div class="searchallicon"></div>
