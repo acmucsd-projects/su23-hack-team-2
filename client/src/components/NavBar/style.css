@@ -189,3 +189,15 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
+
+.ais-SearchBox-reset {
+	-webkit-appearance: none;
+	appearance: none;
+	position: absolute;
+	z-index: 1;
+	width: 0;
+	height: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-right: 30px;
+	}
