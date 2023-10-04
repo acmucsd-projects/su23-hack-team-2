@@ -54,11 +54,7 @@
 }
 .clothing { 
 	color:rgba(128, 125, 126, 1);
-<<<<<<< HEAD
 	width:92px;
-=======
-	width:82px;
->>>>>>> main
 	height:26px;
 	position:absolute;
 	left:276px;
@@ -126,7 +122,6 @@
 
 /* top right buttons */
 .toprighticons { 
-<<<<<<< HEAD
 	width:150px;
 	height:44px;
 	position:absolute;
@@ -135,16 +130,6 @@
 }
 .createlisting {
 	background-color:rgba(25, 137, 172, 0.8);
-=======
-	width:100px;
-	height:44px;
-	position:absolute;
-	left:1137px;
-	top:0px;
-}
-.wishlist { 
-	background-color:rgba(240, 240, 240, 1);
->>>>>>> main
 	width:44px;
 	height:44px;
 	position:absolute;
