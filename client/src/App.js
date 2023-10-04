@@ -5,19 +5,21 @@ import PagePath from './components/PagePath'
 import Inbox from './components/Inbox'
 import Wishlist from './components/WishList';
 import ProductDetails from './components/ProdDetails'
+import NewListing from './components/NewListing'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <main>
       <NavBar />
-      <PagePath />
+      {/* <PagePath /> */}
         <BrowserRouter>
           <Routes>
             <Route exact path="/inbox" element={<Inbox />} />
             <Route exact path="/accountinfo" element={<AccountInfo />} />
             <Route exact path="/wishlist" element={<Wishlist />} />
             <Route exact path="/productdetails" element={<ProductDetails />} />
+            <Route exact path="/newlisting" element={<NewListing />} />
           </Routes>
         </BrowserRouter>
     </main>
