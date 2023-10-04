@@ -25,3 +25,8 @@ mongoose.connect(process.env.DB_URL, {
 });
 
 module.exports = app;
+
+// const config = {
+//     PORT: process.env.PORT,
+//     databaseUrl: process.env.DB_URL,
+// }

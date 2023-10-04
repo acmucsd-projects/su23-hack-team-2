@@ -12,7 +12,6 @@ function App() {
   return (
     <main>
       <NavBar />
-      {/* <PagePath /> */}
         <BrowserRouter>
           <Routes>
             <Route exact path="/inbox" element={<Inbox />} />
