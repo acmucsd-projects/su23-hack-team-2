@@ -17,7 +17,6 @@ body {
 .v254_957 {
   width: 100%;
   height: 108px;
-  /* background: url("../images/v254_957.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -30,7 +29,6 @@ body {
 .v254_958 {
   width: 100%;
   height: 45px;
-  /* background: url("../images/v254_958.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -43,7 +41,6 @@ body {
 .v254_959 {
   width: 465px;
   height: 28px;
-  /* background: url("../images/v254_959.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -117,7 +114,6 @@ body {
 .v254_966 {
   width: 156px;
   height: 44px;
-  /* background: url("../images/v254_966.png"); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -154,7 +150,7 @@ body {
   overflow: hidden;
 }
 .newlistingbody {
-  width: 100%;
+  width: 2000px;
   height: 505px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -162,7 +158,7 @@ body {
   opacity: 1;
   position: absolute;
   top: 225px;
-  left: 109px;
+  left: 200px;
   overflow: hidden;
 }
 .v255_1047 {
@@ -172,15 +168,15 @@ body {
   opacity: 1;
   position: absolute;
   top: 46px;
-  left: 43px;
+  left: 20px;
   overflow: hidden;
 }
 .v255_1050 {
   width: 118px;
   color: rgba(0,0,0,1);
   position: absolute;
-  top: 194px;
-  left: 169px;
+  top: 158px;
+  left: 125px;
   font-family: Inria Sans;
   font-weight: Bold;
   font-size: 50px;
@@ -191,7 +187,7 @@ body {
 /* new listing inputs for user */
 .titleinput {
   background-color:white;
-  width:267px;
+  width:500px;
   height:42px;
   position:absolute;
   padding:10px;
@@ -215,7 +211,7 @@ body {
 
 .priceinput {
   background-color:white;
-  width:267px;
+  width:500px;
   height:42px;
   position:absolute;
   padding:10px;
@@ -243,7 +239,7 @@ body {
   position:absolute;
   left:470px;
   top:180px;
-  width:267px;
+  width:500px;
   height:40px;
   border-top-left-radius:8px;
   border-top-right-radius:8px;
@@ -255,7 +251,7 @@ body {
     position:absolute;
     left:470px;
     top:240px;
-    width:267px;
+    width:500px;
     height:40px;
     border-top-left-radius:8px;
     border-top-right-radius:8px;
@@ -266,7 +262,7 @@ body {
 
 .descriptioninput {
     background-color:white;
-    width:267px;
+    width:500px;
     height:42px;
     position:absolute;
     padding:10px;
