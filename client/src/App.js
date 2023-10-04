@@ -8,6 +8,7 @@ import PostListingPage from './components/Post';
 import ProductListingFilter from './components/ProductListingFilter';
 import ProductListing from './components/ProductListing';
 import SignInPage from './components/SignIn';
+import NewListing from './components/NewListing';
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import { useEffect } from 'react';
 import { gapi } from 'gapi-script'
@@ -37,6 +38,7 @@ function App() {
             <Route exact path="/wishlist" element={<Wishlist />} />
             <Route exact path="/postlisting" element={<PostListingPage />} />
             <Route exact path="/productlisting" element={<ProductListing />} />
+            <Route exact path="/newlisting" element={<NewListing />} />
             <Route exact path="/" element={<SignInPage />} />
           </Routes>
         </BrowserRouter>
