@@ -1,4 +1,6 @@
 const express = require('express');
+const config = require('./config');
+const cors = require('cors');
 const logger = require('morgan');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
@@ -9,6 +11,7 @@ const app = express();
 
 app.use(logger('dev'));
 app.use(express.json());
+app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 
 app.use('/users', usersRouter);
