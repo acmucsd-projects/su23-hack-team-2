@@ -171,6 +171,9 @@ body {
   left: 20px;
   overflow: hidden;
 }
+.v255_1047:hover {
+  cursor: pointer;
+}
 .v255_1050 {
   width: 118px;
   color: rgba(0,0,0,1);
