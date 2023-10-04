@@ -1,6 +1,6 @@
 #signInButton {
-    left: 75rem;
+    margin: auto;
+    align-items: center;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 30%;
+    justify-content: center;
 }

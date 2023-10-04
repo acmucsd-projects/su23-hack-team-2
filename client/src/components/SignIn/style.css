@@ -1,16 +1,36 @@
 .imgLogo {
     display: flex;
-    margin-left: 0;
-    margin-right: auto;
-    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
     background-color: lightblue;
-    margin-top: 5%;
-    padding-top: 9%;
-    padding-bottom: 8%;
-    overflow-y: hidden;
-    justify-content: space-evenly;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 16%;
+    padding-bottom: 17%;
+    margin-top: 1%;
 }
 
-.signInHTML {
-    overflow-y: hidden;
+.login-btn {
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+    padding-right: 12.5%;
+
+}
+
+.login-side {
+    display: block;
+    width: 100%;
+}
+.page {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+h2 {
+    margin-bottom: 0;
+    padding-bottom: 4%;
 }
