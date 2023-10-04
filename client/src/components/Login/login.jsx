@@ -1,4 +1,5 @@
 import { GoogleLogin } from 'react-google-login';
+import "./style.css"
 
 const clientId = "408051983758-p7n4273ka54c34e8nt5jm18q3kqmd6nb.apps.googleusercontent.com";
 

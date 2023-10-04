@@ -1,17 +1,12 @@
 import React from "react";
 import "./style.css";
-import { Link } from 'react-router-dom';
-
 
 const NavBar = () => {
-    const handleButtonClick = () => {
-        window.location.href = '/accountinfo';
-    };
   return (
     <div class="navbardiv">
         <div class="navbar">
             <div class="navbarcategories">
-                <a href="/" class="academics">Homepage</a>
+                <span class="academics">Academics</span>
                 <span class="furniture">Furniture</span>
                 <span class="clothing">Clothing</span>
                 <span class="more">More</span>
@@ -23,11 +18,14 @@ const NavBar = () => {
                     </div>
                 </div>
             <div class="toprighticons">
-                <div class="wishlist">
+                <div class="createlisting">
+                    <div class="createlistingicon">+</div>
+                </div>
+                <div class="wishlistshortcut">
                     <div class="wishlisticon"></div>
                 </div>
                 <div class="profile">
-                    <button className = "profileicon" onClick={handleButtonClick}></button>
+                    <div class="profileicon"></div>
                 </div>
             </div>
         </div>

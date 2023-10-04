@@ -14,7 +14,7 @@
     position: relative;
     align-items: flex-start;
     flex-shrink: 0;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: transparent;
   }
   .frame9 {
     gap: 15px;
@@ -29,10 +29,8 @@
     color: rgba(128, 125, 126, 1);
     height: auto;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -48,7 +46,6 @@
     font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -64,7 +61,6 @@
     font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -93,10 +89,8 @@
     height: auto;
     position: absolute;
     font-size: 28px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 33.5px;
     font-stretch: normal;
     text-decoration: none;
@@ -117,10 +111,8 @@
     height: auto;
     position: absolute;
     font-size: 28px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 33.5px;
     font-stretch: normal;
     text-decoration: none;
@@ -133,23 +125,24 @@
     height: auto;
     position: absolute;
     font-size: 14px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 33.5px;
     font-stretch: normal;
     text-decoration: none;
   }
-  .frame455 {
+  .myordersonleft {
     top: 318px;
     left: 137px;
-    width: 114px;
+    width: 295px;
     height: 22px;
     display: flex;
     position: absolute;
     align-items: flex-start;
     flex-shrink: 0;
+  }
+  .myordersonleft:hover {
+    cursor: pointer;
   }
   .text012 {
     left: 37px;
@@ -157,10 +150,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -183,21 +174,23 @@
     flex-shrink: 0;
   }
   .frame459 {
-    top: 0px;
+    top: 5px;
     left: 0px;
     width: 295px;
-    height: 44px;
+    height: 30px;
     display: flex;
     position: absolute;
     align-items: flex-start;
     flex-shrink: 0;
+    overflow: hidden;
   }
   .rectangle748 {
-    top: 0px;
+    top: 5px;
     left: 0px;
     width: 295px;
-    height: 44px;
+    height: 30px;
     position: absolute;
+    overflow: hidden;
   }
   .rectangle749 {
     top: 0px;
@@ -206,7 +199,7 @@
     height: 44px;
     position: absolute;
   }
-  .frame456 {
+  .wishlistonleft {
     top: 11px;
     left: 37px;
     width: 99px;
@@ -216,16 +209,17 @@
     align-items: flex-start;
     flex-shrink: 0;
   }
+  .wishlistonleft:hover {
+    cursor: pointer;
+  }
   .text014 {
     left: 37px;
     color: rgba(128, 125, 126, 1);
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -237,15 +231,18 @@
     height: 20px;
     position: absolute;
   }
-  .frame458 {
+  .signoutonleft {
     top: 476px;
     left: 137px;
-    width: 102px;
+    width: 295px;
     height: 22px;
     display: flex;
     position: absolute;
     align-items: flex-start;
     flex-shrink: 0;
+  }
+  .signoutonleft:hover {
+    cursor:pointer;
   }
   .text016 {
     left: 37px;
@@ -253,10 +250,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -268,15 +263,18 @@
     height: 22px;
     position: absolute;
   }
-  .frame457 {
+  .myinfoonleft {
     top: 423px;
     left: 137px;
-    width: 93px;
+    width: 295px;
     height: 22px;
     display: flex;
     position: absolute;
     align-items: flex-start;
     flex-shrink: 0;
+  }
+  .myinfoonleft:hover {
+    cursor:pointer;
   }
   .text018 {
     left: 37px;
@@ -284,10 +282,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -337,9 +333,17 @@
     align-items: center;
     justify-content: center;
   }
-  .closecross {
-    width: 22px;
-    height: 22px;
+  .filledwishlistheart {
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+    background-image:url("../../assets/filledinwishlist.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .filledwishlistheart:hover {
+    cursor: pointer;
   }
   .rectangle754 {
     width: 110px;
@@ -361,8 +365,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -375,15 +378,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text023 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .frame478 {
     top: 26px;
@@ -403,15 +404,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text025 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .text027 {
     top: 12px;
@@ -422,8 +421,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -441,14 +439,15 @@
     justify-content: center;
     background-color: rgba(25, 137, 172, 1);
   }
+  .button:hover {
+    cursor: pointer;
+  }
   .text029 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 18px;
-    font-style: Bold;
     text-align: center;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -463,9 +462,17 @@
     align-items: center;
     justify-content: center;
   }
-  .closecross1 {
-    width: 22px;
-    height: 22px;
+  .filledwishlistheart1 {
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+    background-image:url("../../assets/filledinwishlist.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .filledwishlistheart1:hover {
+    cursor: pointer;
   }
   .rectangle7541 {
     width: 110px;
@@ -487,8 +494,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -501,15 +507,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text034 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .frame4781 {
     top: 26px;
@@ -529,15 +533,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text036 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .text038 {
     top: 12px;
@@ -548,8 +550,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -567,14 +568,15 @@
     justify-content: center;
     background-color: rgba(25, 137, 172, 1);
   }
+  .button1:hover {
+    cursor: pointer;
+  }
   .text040 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 18px;
-    font-style: Bold;
     text-align: center;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -589,9 +591,17 @@
     align-items: center;
     justify-content: center;
   }
-  .closecross2 {
-    width: 22px;
-    height: 22px;
+  .filledwishlistheart2 {
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+    background-image:url("../../assets/filledinwishlist.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .filledwishlistheart2:hover {
+    cursor: pointer;
   }
   .rectangle7542 {
     width: 110px;
@@ -613,8 +623,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -627,15 +636,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text045 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .frame4782 {
     top: 26px;
@@ -655,15 +662,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text047 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .text049 {
     top: 12px;
@@ -674,8 +679,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -693,14 +697,15 @@
     justify-content: center;
     background-color: rgba(25, 137, 172, 1);
   }
+  .button2:hover {
+    cursor: pointer;
+  }
   .text051 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 18px;
-    font-style: Bold;
     text-align: center;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -715,9 +720,17 @@
     align-items: center;
     justify-content: center;
   }
-  .closecross3 {
-    width: 22px;
-    height: 22px;
+  .filledwishlistheart3 {
+    left:0px;
+    top:0px;
+    width:22px;
+    height:22px;
+    background-image:url("../../assets/filledinwishlist.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .filledwishlistheart3:hover {
+    cursor: pointer;
   }
   .rectangle7543 {
     width: 110px;
@@ -739,8 +752,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -753,15 +765,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text056 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .frame4783 {
     top: 26px;
@@ -781,15 +791,13 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
   }
   .text058 {
     color: rgba(60, 66, 66, 1);
-    font-weight: 400;
   }
   .text060 {
     top: 12px;
@@ -800,8 +808,7 @@
     font-size: 22px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -819,14 +826,15 @@
     justify-content: center;
     background-color: rgba(25, 137, 172, 1);
   }
+  .button3:hover {
+    cursor: pointer;
+  }
   .text062 {
     color: rgba(255, 255, 255, 1);
     height: auto;
     font-size: 18px;
-    font-style: Bold;
     text-align: center;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -865,10 +873,8 @@
     color: rgba(128, 125, 126, 1);
     height: auto;
     font-size: 22px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -877,10 +883,8 @@
     color: rgba(128, 125, 126, 1);
     height: auto;
     font-size: 22px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -889,10 +893,8 @@
     color: rgba(128, 125, 126, 1);
     height: auto;
     font-size: 22px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -901,10 +903,8 @@
     color: rgba(127, 124, 125, 1);
     height: auto;
     font-size: 22px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -913,10 +913,8 @@
     color: rgba(127, 124, 125, 1);
     height: auto;
     font-size: 22px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -934,6 +932,9 @@
     border-radius: 8px;
     background-color: rgba(246, 246, 246, 1);
   }
+  .button4:hover {
+    cursor: pointer;
+  }
   .search {
     width: 20px;
     height: 20px;
@@ -945,7 +946,6 @@
     font-style: Regular;
     text-align: center;
     font-family: Inria Sans;
-    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -1086,7 +1086,6 @@
     font-style: Regular;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -1100,7 +1099,6 @@
     font-style: Regular;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -1199,7 +1197,6 @@
     font-style: Regular;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -1214,7 +1211,6 @@
     font-style: Regular;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 400;
     line-height: normal;
     font-stretch: normal;
     text-decoration: none;
@@ -1291,8 +1287,7 @@
     font-size: 28.57913589477539px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1312,10 +1307,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1326,10 +1319,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1340,10 +1331,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1365,8 +1354,7 @@
     font-size: 28.57913589477539px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1386,10 +1374,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1400,10 +1386,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1414,10 +1398,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1428,10 +1410,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1453,8 +1433,7 @@
     font-size: 28.57913589477539px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1474,10 +1453,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1488,10 +1465,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1502,10 +1477,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1516,10 +1489,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1530,10 +1501,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1555,8 +1524,7 @@
     font-size: 28.57913589477539px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1576,10 +1544,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1590,10 +1556,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1604,10 +1568,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1618,10 +1580,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1632,10 +1592,8 @@
     height: auto;
     position: absolute;
     font-size: 18px;
-    font-style: Bold;
     text-align: left;
     font-family: Inria Sans;
-    font-weight: 700;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1649,8 +1607,7 @@
     font-size: 28.57913589477539px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 216.89999103546143%;
     font-stretch: normal;
     text-decoration: none;
@@ -1665,8 +1622,7 @@
     font-size: 28.57913589477539px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 200%;
     font-stretch: normal;
     text-decoration: none;
@@ -1740,15 +1696,13 @@
   .text130 {
     top: 4.271963119506836px;
     left: 11.391925811767578px;
-    color: rgba(42, 47, 47, 1);
+    color:rgba(128, 125, 126, 1);
     width: 16px;
     height: auto;
     position: absolute;
-    font-size: 17.088001251220703px;
-    font-style: Bold;
+    font-size: 18px;
     text-align: left;
-    font-family: Roboto;
-    font-weight: 700;
+    font-family: Inria Sans;
     line-height: 28.479999542236328px;
     font-stretch: normal;
     text-decoration: none;
@@ -1778,8 +1732,7 @@
     font-size: 18px;
     font-style: Regular;
     text-align: left;
-    font-family: Abel;
-    font-weight: 400;
+    font-family: Inria Sans;
     line-height: 200%;
     font-stretch: normal;
     text-decoration: none;

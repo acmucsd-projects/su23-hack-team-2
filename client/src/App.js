@@ -7,9 +7,8 @@ import Wishlist from './components/WishList';
 import PostListingPage from './components/Post';
 import ProductListingFilter from './components/ProductListingFilter';
 import ProductListing from './components/ProductListing';
+import SignInPage from './components/SignIn';
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
-import Login from "./components/Login/login";
-import Logout from "./components/Login/logout";
 import { useEffect } from 'react';
 import { gapi } from 'gapi-script'
 
@@ -37,11 +36,10 @@ function App() {
             <Route exact path="/inbox" element={<Inbox />} />
             <Route exact path="/wishlist" element={<Wishlist />} />
             <Route exact path="/postlisting" element={<PostListingPage />} />
-            <Route exact path="/" element={<ProductListing />} />
+            <Route exact path="/productlisting" element={<ProductListing />} />
+            <Route exact path="/" element={<SignInPage />} />
           </Routes>
         </BrowserRouter>
-        <Login/>
-        <Logout/>
     </main>
   );
 }
