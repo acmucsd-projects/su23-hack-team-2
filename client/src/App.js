@@ -7,7 +7,6 @@ import Wishlist from './components/WishList';
 import ProductDetails from './components/ProdDetails'
 import NewListing from './components/NewListing'
 import ProductListing from './components/ProductListing';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
