@@ -1,4 +1,5 @@
 import "./style.css";
+import React from "react";
 import ProductListingFilter from "../ProductListingFilter";
 
 const listingData = [

@@ -151,6 +151,9 @@
 .createlisting:hover {
 	cursor: pointer;
 }
+.createlistingicon:hover {
+	cursor:pointer;
+}
 .wishlistshortcut { 
 	background-color:rgba(240, 240, 240, 1);
 	width:44px;

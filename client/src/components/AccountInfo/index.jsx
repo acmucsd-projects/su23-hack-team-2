@@ -70,6 +70,7 @@ const AccountInfo = () => {
                     <span  class="e8_3018">Password</span>
                     <span  class="changepassword">Change</span>
                     <div class="e8_3020">
+                        {/*
                         <div class="hiddenpassword"></div>
                         <div class="hiddenpassword"></div>
                         <div class="hiddenpassword"></div>
@@ -77,6 +78,14 @@ const AccountInfo = () => {
                         <div class="hiddenpassword"></div>
                         <div class="hiddenpassword"></div>
                         <div class="hiddenpassword"></div>
+  */}
+                        <div class="hiddenpassword1"></div>
+                        <div class="hiddenpassword2"></div>
+                        <div class="hiddenpassword3"></div>
+                        <div class="hiddenpassword4"></div>
+                        <div class="hiddenpassword5"></div>
+                        <div class="hiddenpassword6"></div>
+
                     </div>
                 </div>
             </div>
