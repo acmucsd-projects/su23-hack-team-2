@@ -4,10 +4,11 @@ import NavBar from './components/NavBar'
 import Inbox from './components/Inbox'
 import Wishlist from './components/WishList';
 import PostListingPage from './components/Post';
-import ProductListingFilter from './components/ProductListingFilter';
+// import ProductListingFilter from './components/ProductListingFilter';
 import ProductListing from './components/ProductListing';
 import SignInPage from './components/SignIn';
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import NewListing from "./components/NewListing"
 import { useEffect } from 'react';
 import { gapi } from 'gapi-script'
 
@@ -35,13 +36,12 @@ function App() {
             <Route exact path="/inbox" element={<Inbox />} />
             <Route exact path="/accountinfo" element={<AccountInfo />} />
             <Route exact path="/wishlist" element={<Wishlist />} />
-            {/*<Route exact path="/productdetails" element={<ProductDetails />} />
-            <Route exact path="/newlisting" element={<NewListing />} />*/}
+            {/* <Route exact path="/productdetails" element={<ProductDetails />} /> */}
+            <Route exact path="/newlisting" element={<NewListing />} />
             <Route exact path="/navbar" element={<NavBar />} />
-            {/*<Route exact path="/pagepath" element={<PagePath />} />*/}
             <Route exact path="/postlisting" element={<PostListingPage />} />
             <Route exact path="/productlisting" element={<ProductListing />} />
-            <Route exact path="/" element={<SignInPage />} />
+            <Route exact path="/signin" element={<SignInPage />} />
           </Routes>
         </BrowserRouter>
     </main>
