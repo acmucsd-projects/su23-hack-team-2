@@ -1,9 +1,11 @@
 .navbardiv { 
 	width:1440px;
 	height:108px;
-	position:absolute;
+	position:fixed;
 	left:0px;
 	top:0px;
+	z-index: 100000;
+	background-color: white;
 }
 .navbar { 
 	width:1237px;

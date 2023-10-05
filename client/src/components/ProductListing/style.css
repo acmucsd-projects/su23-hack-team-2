@@ -82,9 +82,9 @@ html {
 .sidebar {
     display: inline-flex;
     width: 25%;
-    /*border: solid black 1px;*/
     margin: 1%;
-    margin-top: 0%
+    top: 0;
+    margin-bottom: 45%;
 }
 
 .product-listing {
