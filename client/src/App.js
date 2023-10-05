@@ -1,7 +1,7 @@
 import './App.css';
 import AccountInfo from './components/AccountInfo';
 import NavBar from './components/NavBar'
-import PagePath from './components/PagePath'
+// import PagePath from './components/PagePath'
 import Inbox from './components/Inbox'
 import Wishlist from './components/WishList';
 import ProductDetails from './components/ProdDetails'
@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/productdetails" element={<ProductDetails />} />
             <Route exact path="/newlisting" element={<NewListing />} />
             <Route exact path="/navbar" element={<NavBar />} />
-            <Route exact path="/pagepath" element={<PagePath />} />
+            {/*<Route exact path="/pagepath" element={<PagePath />} />*/}
           </Routes>
         </BrowserRouter>
     </main>
