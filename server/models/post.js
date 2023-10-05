@@ -10,15 +10,19 @@ const PostSchema = new mongoose.Schema({
         required: true
     },
     date: {
+        /*
         type: Date,
         default: Date.now
+        */
+        type: String,
+        required: true
     },
     description: {
         type: String,
         required: true
     },
     picture: {
-        data: Buffer,
+        /* data: Buffer, */
         type: String,
         required: true
     },
@@ -36,6 +40,8 @@ const PostSchema = new mongoose.Schema({
     }
 })
 
-const Post = mongoose.model('Post', PostSchema)
+const Post = mongoose.model('Post', postSchema)
 
-module.exports = Post
+module.exports = {
+    Post
+}
