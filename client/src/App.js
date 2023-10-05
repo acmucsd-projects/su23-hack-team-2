@@ -6,6 +6,7 @@ import Wishlist from './components/WishList';
 import PostListingPage from './components/Post';
 import ProductListingFilter from './components/ProductListingFilter';
 import ProductListing from './components/ProductListing';
+import ClothingPage from './components/ProductListing/clothing.jsx'
 import SignInPage from './components/SignIn';
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import { useEffect } from 'react';
@@ -41,7 +42,8 @@ function App() {
             {/*<Route exact path="/pagepath" element={<PagePath />} />*/}
             <Route exact path="/postlisting" element={<PostListingPage />} />
             <Route exact path="/productlisting" element={<ProductListing />} />
-            <Route exact path="/" element={<SignInPage />} />
+            <Route exact path="/signin" element={<SignInPage />} />
+            <Route exact path="/clothing" element={<ClothingPage/>} />
           </Routes>
         </BrowserRouter>
     </main>
