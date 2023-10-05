@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.newlistingbody {
+  width: 2000px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 225px;
+  left: 200px;
+  overflow: hidden;
+}
+.addphoto {
+  width: 371px;
+  height: 371px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 46px;
+  left: 20px;
+  overflow: hidden;
+}
+.addphoto:hover {
+  cursor: pointer;
+}
+.addphotoicon {
+  width: 118px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 158px;
+  left: 125px;
+  font-family: Inria Sans;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+
+/* new listing inputs for user */
+.titleinput {
+  background-color:white;
+  width:500px;
+  height:42px;
+  position:absolute;
+  padding:10px;
+  left:470px;
+  top:60px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.titleinput input[type=text]{ 
+	background-color:transparent;
+	color:rgba(42, 42, 42, 0.7);
+	border:0px;
+	height:30px;
+	width:212px;
+	position:absolute;
+	left:40px;
+	top:5px;
+}
+
+.priceinput {
+  background-color:white;
+  width:500px;
+  height:42px;
+  position:absolute;
+  padding:10px;
+  left:470px;
+  top:120px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.priceinput input[type=text]{ 
+	background-color:transparent;
+	color:rgba(42, 42, 42, 0.7);
+	border:0px;
+	height:30px;
+	width:212px;
+	position:absolute;
+	left:40px;
+	top:5px;
+}
+
+/* dropdowns */
+.categoriesdropdown {
+  background-color:white;
+  position:absolute;
+  left:470px;
+  top:180px;
+  width:500px;
+  height:40px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  padding:5px;
+}
+.conditionsdropdown {
+    position:absolute;
+    left:470px;
+    top:240px;
+    width:500px;
+    height:40px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    padding:5px;
+}
+
+.descriptioninput {
+    background-color:white;
+    width:500px;
+    height:42px;
+    position:absolute;
+    padding:10px;
+    left:470px;
+    top:300px;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+}
+.descriptioninput input[type=text]{ 
+	background-color:transparent;
+	color:rgba(42, 42, 42, 0.7);
+	border:0px;
+	height:30px;
+	width:212px;
+	position:absolute;
+	left:40px;
+	top:5px;
+}
+
+.postbutton {
+  background-color:rgba(25, 137, 172, 1);
+  height:50px;
+  width:150px;
+  position:absolute;
+  left:818px;
+  top:420px;
+  text-align: center;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+}
+.postbutton:hover {
+  cursor: pointer;
+}
+.posttext {
+  color:white;
+  font-family: Inria Sans;
+  position:relative;
+  top:11px;
+  font-weight: Bold;
+  font-size:large;
+}

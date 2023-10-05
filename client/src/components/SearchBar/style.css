@@ -1,0 +1,39 @@
+:root {
+    --main-blue: #1989AC;
+    --yellow: #FEF4E8;
+}
+
+.input-wrapper {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color: var(--yellow);
+
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: medium;
+    color: var(--main-blue); 
+    padding-left: 4%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-icon {
+    padding: 4%;
+}
+
+ ::placeholder {
+    color: var(--main-blue);
+ }
+
+
+
+
+

@@ -1,11 +1,12 @@
+import React, {useState, useEffect} from "react";
 import "./style.css";
-import React from "react";
 import ProductListingFilter from "../ProductListingFilter";
+import API from '../API';
 
 const listingData = [
   {
     name: "Bed",
-    img: "https://www.ikea.com/us/en/images/products/hauga-bedroom-furniture-set-of-4-lofallet-beige-white__1101338_pe866602_s5.jpg?f=s", 
+    img: "https://www.ikea.com/us/en/images/products/hauga-bedroom-furniture-set-of-4-lofallet-beige-white__1101338_pe866602_s5.jpg?f=s",
     cost: 100,
   },
   {
@@ -26,28 +27,39 @@ const listingData = [
   {
     name: "Rolling Chair",
     img: "https://www.ikea.com/us/en/images/products/hattefjaell-office-chair-with-armrests-smidig-black-black__1019087_pe831296_s5.jpg",
-    cost: 10000000
+    cost: 10000000,
   },
 ];
 
 const ProductListing = () => {
+  const [body, setBody] = useState([]);
+
+  useEffect(() => {
+    API.getPost().then((response) => {
+      console.log(response);
+      setBody(response.data.post);
+    });
+  }, []);
+
   return (
     <div class="page">
-        <div class="sidebar"><ProductListingFilter/></div>
-        <div class="product-listing">
+      <div class="sidebar">
+        <ProductListingFilter />
+      </div>
+      <div class="product-listing">
         <h1 class="cat-name">Category</h1>
-          {listingData.map((listing, index) => {  
+        {body.map((listing) => {
           return (
-              <div class="product">
-                  <img src={listing.img} class="product-img" alt="product"/>
-                  <div class="product-info">
-                      <p class="product-name">{listing.name}</p>
-                      <p class="product-price">${listing.cost}</p>
-                  </div>
+            <div class="product">
+              <img src={listing.img} class="product-img" alt="product" />
+              <div class="product-info">
+                <p class="product-name">{listing.name}</p>
+                <p class="product-price">${listing.cost}</p>
               </div>
+            </div>
           );
-          })}
-        </div>
+        })}
+      </div>
     </div>
   );
 };
