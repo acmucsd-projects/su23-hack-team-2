@@ -45,7 +45,7 @@ const NavBar = () => {
                     </InstantSearch>
                 </div>
                 <div className="toprighticons">
-                    <div className="wishlist">
+                    <div className="navbarwishlist">
                         <div className="wishlisticon"></div>
                     </div>
                     <div className="profile">
