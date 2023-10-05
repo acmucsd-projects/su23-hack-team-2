@@ -1,7 +1,6 @@
 import './App.css';
 import AccountInfo from './components/AccountInfo';
 import NavBar from './components/NavBar'
-import PagePath from './components/PagePath'
 import Inbox from './components/Inbox'
 import Wishlist from './components/WishList';
 import ProductDetails from './components/ProdDetails'

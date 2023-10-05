@@ -12,8 +12,8 @@ const NewListing = () => {
         </head>
         <body>
             <div class="newlistingbody">
-                <div class="v255_1047">
-                    <span class="v255_1050">+</span>
+                <div class="addphoto">
+                    <span class="addphotoicon">+</span>
                 </div>
                 <input type="text" class="titleinput" placeholder="Title:"></input>
                 <input type="text" class="priceinput" placeholder="Price (USD):"></input>
@@ -33,6 +33,9 @@ const NewListing = () => {
                     <option value="For Parts/Not Working">For Parts/Not Working</option>
                 </select>
                 <input type="text" class="descriptioninput" placeholder="Description:"></input>
+                <div class="postbutton">
+                    <span class="posttext">Post Listing!</span>
+                </div>
             </div>
         </body>
     </html>
