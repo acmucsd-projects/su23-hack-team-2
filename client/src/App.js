@@ -19,6 +19,8 @@ function App() {
             <Route exact path="/wishlist" element={<Wishlist />} />
             <Route exact path="/productdetails" element={<ProductDetails />} />
             <Route exact path="/newlisting" element={<NewListing />} />
+            <Route exact path="/navbar" element={<NavBar />} />
+            <Route exact path="/pagepath" element={<PagePath />} />
           </Routes>
         </BrowserRouter>
     </main>
