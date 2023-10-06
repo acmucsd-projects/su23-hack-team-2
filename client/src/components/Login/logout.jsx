@@ -6,6 +6,7 @@ function Logout() {
 
     const onSuccess = () => {
         console.log("Log out successful!");
+        window.location.href = "/signin";
     }
     return (
         <div id = "signOutButton">

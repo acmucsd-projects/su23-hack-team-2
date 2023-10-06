@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits } from 'react-instantsearch';
+import Logout from "../Login/logout";
 
 const searchClient = algoliasearch('BF6BAXRV38', '9ab225dfafbf63a1619c25d83a7518f0');
 
@@ -25,13 +26,14 @@ const NavBar = () => {
     };
 
     return (
+
         <div className="navbardiv">
             <div className="navbar">
                 <div className="navbarcategories">
-                    <span className="academics">Academics</span>
-                    <span className="furniture">Furniture</span>
-                    <span className="clothing">Clothing</span>
-                    <span className="more">More</span>
+                    <a className="academics" href="/homepage">Homepage</a>
+                    <a className="furniture" href="/furniture">Furniture</a>
+                    <a className="clothing" href="/clothing">Clothing</a>
+                    <a className="more" href="/academics">Academics</a>
                 </div>
                 <div className="searchalldiv">
                     <InstantSearch searchClient={searchClient} indexName="tritontrade">
@@ -46,7 +48,7 @@ const NavBar = () => {
                 </div>
                 <div className="toprighticons">
                     <div className="navbarwishlist">
-                        <div className="wishlisticon"></div>
+                        <Logout />
                     </div>
                     <div className="profile">
                         <div className="profileicon"></div>

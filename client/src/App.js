@@ -7,6 +7,9 @@ import PostListingPage from './components/Post';
 // import ProductListingFilter from './components/ProductListingFilter';
 import ProductListing from './components/ProductListing';
 import ClothingPage from './components/ProductListing/clothing.jsx'
+import Furniture from './components/ProductListing/furniture.jsx'
+import Academics from './components/ProductListing/academics.jsx'
+
 import SignInPage from './components/SignIn';
 import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
 import NewListing from "./components/NewListing"
@@ -41,9 +44,11 @@ function App() {
             <Route exact path="/newlisting" element={<NewListing />} />
             <Route exact path="/navbar" element={<NavBar />} />
             <Route exact path="/postlisting" element={<PostListingPage />} />
-            <Route exact path="/productlisting" element={<ProductListing />} />
+            <Route exact path="/homepage" element={<ProductListing />} />
             <Route exact path="/signin" element={<SignInPage />} />
             <Route exact path="/clothing" element={<ClothingPage/>} />
+            <Route exact path="/furniture" element={<Furniture/>} />
+            <Route exact path="/academics" element={<Academics/>} />
           </Routes>
         </BrowserRouter>
     </main>

@@ -40,7 +40,7 @@ const ClothingPage = () => {
     <div class="page">
         <div class="sidebar"><ProductListingFilter/></div>
         <div class="product-listing">
-        <h1 class="cat-name">Category</h1>
+        <h1 class="cat-name">Clothing</h1>
           {listingData.map((listing, index) => {  
           return (
               <div class="product">

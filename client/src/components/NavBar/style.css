@@ -14,7 +14,12 @@
 	left:102px;
 	top:32px;
 }
+
+.a {
+	font-family: 'inria-sans';
+}
 .navbarcategories { 
+	font-family: sans-serif;
 	width:449px;
 	height:26px;
 	position:absolute;
@@ -29,13 +34,12 @@
 	position:absolute;
 	left:0px;
 	top:0px;
-	font-family:Inria Sans;
+	font-family:'Inria Sans';
 	text-align:left;
 	font-size:22px;
 	letter-spacing:0;
 }
 .academics:hover {
-	text-decoration:underline;
 	cursor:pointer;
 }
 .furniture { 
@@ -143,7 +147,7 @@
 	border-bottom-right-radius:8px;
 }
 .createlistingicon {
-	font-family: Inria Sans;
+	font-family: 'Inria Sans';
 	color: white;
 	font-size:35px;
 	position:absolute;

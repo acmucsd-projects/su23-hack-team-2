@@ -7,6 +7,7 @@ function Login() {
 
     const onSuccess = (res) => {
         console.log("LOGIN SUCCESS! Current user: ", res.profileObj);
+        window.location.href = "/homepage";
     }
 
     const onFailure = (res) => {
